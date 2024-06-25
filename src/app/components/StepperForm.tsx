@@ -51,6 +51,7 @@ function MultiStepForm() {
   // Function to hide the form
   const hideForm = () => {
     setShowForm(false);
+    setStepper(0)
   };
   const handleChange = (e: any) => {
     const { id, value } = e.target;
